@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 
 const Drum = (props) => {
-  const [sound] = useState("../audio/" + props.id + ".mp3");
+  const [sound] = useState("../drum-machine/audio/" + props.id + ".mp3");
   const audioElem = useRef();
   // const [lowercaseKey] = useState(props.pressable.toLowerCase())
   // const lowercaseKey = props.pressable.toLowerCase();
